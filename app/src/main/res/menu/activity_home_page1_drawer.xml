@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_alumini"
+            android:icon="@drawable/ic_search"
+            android:title="Alumini" />
+        <item
+            android:id="@+id/nav_place"
+            android:icon="@drawable/ic_alumni"
+            android:title="Placements" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_aluminiupdate"
+            android:icon="@drawable/ic_update"
+            android:title="UpdateDetails"
+            />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notify"
+            android:title="Notifications"
+            />
+        <item
+            android:id="@+id/nav_achievement"
+            android:icon="@drawable/contact"
+            android:title="Contact"
+            />
+        <item
+            android:id="@+id/nav_enterprenuer"
+            android:icon="@drawable/ic_enterpre"
+            android:title="Enterprenuer"
+            />
+        <item
+            android:icon="@drawable/ic_suggestion"
+            android:id="@+id/nav_suggest"
+            android:title="Suggestions"/>
+    </group>
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_out"
+                android:title="logout" />
+
+        </menu>
+    </item>
+</menu>

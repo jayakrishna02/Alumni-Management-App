@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+<android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardElevation="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/imageView"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company Name"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/ImageNameTextView"
+                android:fontFamily="serif"
+                android:textSize="23sp"
+                android:textColor="#FF1A3954"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textColor="#fa0a02"
+                    android:textStyle="bold"
+                    android:text="Uploaded Date   : "
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="    Uploaded Date"
+                    android:fontFamily="serif"
+                    android:textColor="#FF1A3954"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:id="@+id/uploadeddate"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textColor="#fa0a02"
+                    android:textStyle="bold"
+                    android:text="Drive Date          : "
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="    Drive Date"
+                    android:fontFamily="serif"
+                    android:textColor="#FF1A3954"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:id="@+id/drivedate"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textColor="#fa0a02"
+                    android:textStyle="bold"
+                    android:text="Eligible Branches : "
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="   Branches"
+                    android:fontFamily="serif"
+                    android:textSize="17sp"
+                    android:textColor="#FF1A3954"
+                    android:textStyle="bold"
+                    android:id="@+id/elbranch"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textColor="#fa0a02"
+                    android:textStyle="bold"
+                    android:text="Passout Years       : "
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="    Passout Year"
+                    android:fontFamily="serif"
+                    android:textColor="#FF1A3954"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:id="@+id/passyear"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</ScrollView>

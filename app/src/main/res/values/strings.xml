@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BEACON</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home_page1">Home</string>
+    <string name="nav_header_title">BEACON</string>
+    <string name="nav_header_subtitle">alumni@gmrit.edu.in</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+    <string name="home_data">Welcome to Alumni Association of GMRIT (www.gmrit.org).
+        The GMRIT-ALUMNI Association endeavours to involve alumni with the Institute, while also providing current students access to a network of well-employed graduates. Members are encouraged to inform GMRITs Training and Placement Cell (tpo@gmrit.org) about potential job opportunities in their organisations. They are also welcome to visit the Institute to deliver special lectures in their respective fields.This interaction helps students bridge the gap between industry experience and academic learning.</string>
+    <!--    <string name="nameerror">Enter Valid Name</string>-->
+    <!--    <string name="passworderror">Enter valid password</string>-->
+
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+</resources>
